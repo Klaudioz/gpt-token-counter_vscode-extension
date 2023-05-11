@@ -1,0 +1,19 @@
+# .gitignore
+
+# Node.js dependencies
+node_modules
+
+# TypeScript compiled directory
+out
+
+# Debug log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode
+
+# Ignore npm's .bin folder
+node_modules/.bin
