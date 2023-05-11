@@ -2,6 +2,7 @@
   "name": "gpt-token-counter",
   "displayName": "GPT Token Counter",
   "description": "Count OpenAI GPT tokens in a document or selected text",
+  "publisher": "klaud10z",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.56.0"
@@ -10,6 +11,7 @@
     "Other"
   ],
   "activationEvents": [
+    "onLanguage:plaintext",
     "*"
   ],
   "main": "./out/extension.js",
@@ -37,5 +39,9 @@
   },
   "dependencies": {
     "@dqbd/tiktoken": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klaudioz/gpt-token-counter_vscode-extension.git"
   }
 }
